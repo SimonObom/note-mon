@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="NoteMon.Application/NoteMon.Application.csproj" />
+  <Project Path="NoteMon.Domain/NoteMon.Domain.csproj" />
+  <Project Path="NoteMon.Infrastructure/NoteMon.Infrastructure.csproj" />
+  <Project Path="NoteMon.Presentation/NoteMon.Presentation.csproj">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+    <Deploy />
+  </Project>
+</Solution>

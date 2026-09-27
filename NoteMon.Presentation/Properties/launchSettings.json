@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NoteMon.Presentation (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "NoteMon.Presentation (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
